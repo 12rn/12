@@ -246,6 +246,7 @@ p {
   .playlist,
   .outro {
     height: auto;
+    min-height: calc(100vh - 200px);
     flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -273,7 +274,7 @@ p {
 @media screen and (max-width: 875px) {
   .song-slot {
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
 
   .playlist-text {
