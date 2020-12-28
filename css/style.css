@@ -272,9 +272,21 @@ p {
 }
 
 @media screen and (max-width: 875px) {
+  html {
+    font-size: 15px;
+  }
+
   .song-slot {
     width: 100%;
-    height: 400px;
+    height: 375px;
+  }
+
+  .song-slot iframe {
+    width: 335px;
+  }
+
+  .song-text {
+    width: 335px;
   }
 
   .playlist-text {
