@@ -279,6 +279,8 @@ p {
   .song-slot {
     width: 100%;
     height: 375px;
+    padding-right: 0;
+    margin-left: 15px;
   }
 
   .song-slot iframe {
