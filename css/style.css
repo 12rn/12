@@ -279,6 +279,9 @@ p {
   .song-slot {
     width: 100%;
     height: 375px;
+  }
+
+  .div-per-border {
     padding-right: 0;
     margin-left: 15px;
   }
