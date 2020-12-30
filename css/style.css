@@ -1,5 +1,5 @@
 :root {
-  --beige: rgb(255, 251, 236);
+  --beige: rgb(255, 246, 224);
   --blue: rgb(31, 60, 172);
   --pink: rgb(201, 66, 119);
   --gold: rgb(255, 207, 47);
@@ -324,4 +324,8 @@ p {
   .subtitle {
     margin-bottom: 100px;
   }
+}
+
+.gold {
+  color: var(--gold);
 }
